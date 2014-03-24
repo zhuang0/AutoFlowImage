@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zhuang.sheen.demo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
+        <activity
+            android:name="com.zhuang.sheen.jinmao.activity.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.zhuang.sheen.jinmao.activity.BlankActivity"
+            android:label="@string/title_activity_blank" >
+        </activity>
+        <activity
+            android:name="com.zhuang.sheen.jinmao.activity.JinmaoIntroduceActivity"
+            android:label="@string/title_activity_jinmao_introduce" >
+        </activity>
+        <activity
+            android:name="com.zhuang.sheen.jinmao.activity.JinmaoIntroduceImageDetailActivity"
+            android:label="@string/title_activity_jinmao_introduce_image_detail" >
+        </activity>
+    </application>
+
+</manifest>

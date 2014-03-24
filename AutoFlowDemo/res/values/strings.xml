@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JinMao</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_blank">BlankActivity</string>
+    <string name="title_activity_jinmao_introduce">JinmaoIntroduceActivity</string>
+    <string name="title_activity_jinmao_introduce_image_detail">JinmaoIntroduceImageDetailActivity</string>
+
+</resources>
